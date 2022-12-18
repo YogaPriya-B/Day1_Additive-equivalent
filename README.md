@@ -1,17 +1,17 @@
 # Day1_Additive-equivalent
 
-arr=list(map(int,input().strip().split()))
+    arr=list(map(int,input().strip().split()))
 
-k=int(input())
+    k=int(input())
 
-len1=len(arr)
+    len1=len(arr)
 
-for i in range(0,len1):
+    for i in range(0,len1):
 
-    for j in range(1,len1):
+        for j in range(1,len1):
 
-        if((arr[i]+arr[j])==k):
+            if((arr[i]+arr[j])==k):
 
-            print("True")
+                print("True")
 
-    break
+        break
